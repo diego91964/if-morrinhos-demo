@@ -14,7 +14,8 @@ import javax.ws.rs.QueryParam;
 /**
  * Created by diego on 15/11/16.
  */
-@RestController("/user")
+@RestController
+@RequestMapping("/user")
 public class UserRest {
 
     @Autowired
